@@ -12,9 +12,12 @@ body{
     color: rgb(75, 150, 0);
     text-align: center;
     font-size: 15px;
+   
 }
 nav{
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 ul{
     display: flex;
