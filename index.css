@@ -11,8 +11,8 @@ body{
 }
 nav{
     background-color: rgb(81, 49, 131);
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 ul{
     display: flex;
@@ -41,6 +41,7 @@ div.titulo{
 }
 div.footer{
     background-color: cadetblue;
+    color: white;
     height: 10vh;
     font-size: 15px;
     padding: 0px;
