@@ -32,6 +32,7 @@ li:hover{
 div.main{
     background-image: url('../Geonsf/img/IMG_20210315_093148342.jpg');
     background-size: cover;
+    background-attachment: fixed;
     height: 90vh;
     padding: 0px;
     margin: 0px;
