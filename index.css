@@ -1,4 +1,15 @@
+head{
+    background-color: chocolate;
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+
+
 body{
     background-color: blue;
     color: chartreuse;
+    text-align: center;
+    font-size: 15px;
 }
