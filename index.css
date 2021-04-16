@@ -31,7 +31,7 @@ li:hover{
 }
 div.main{
     background-image: url('../Geonsf/img/IMG_20210315_093148342.jpg');
-    overflow: hidden;
+    background-size: cover;
     height: 90vh;
     padding: 0px;
     margin: 0px;
