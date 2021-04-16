@@ -28,6 +28,7 @@ li{
 li:hover{
     background-color: brown;
     color: rgb(255, 255, 255);
+    padding: 15px;
 }
 div.main{
     background-image: url(http://drive.google.com/uc?export=view&id=15Yc6YPn1NqOKX9jXdJbaAMizYsUacUU_);
