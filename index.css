@@ -13,3 +13,19 @@ body{
     text-align: center;
     font-size: 15px;
 }
+nav{
+    background-color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+li{
+    padding: 15px;
+}
+li:hover{
+    background-color: brown;
+    color: white;
+}
