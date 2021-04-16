@@ -27,3 +27,8 @@ main{
     overflow: hidden;
     height: 90vh;
 }
+titulo{
+    font-size: 42px;
+    color: black;
+    justify-content: center;
+}
