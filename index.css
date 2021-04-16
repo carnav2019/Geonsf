@@ -9,7 +9,7 @@ body{
     font-size: 15px;
 
 }
-footer{
+div.footer{
     height: 10vh;
     background-color:  rgb(81, 49, 131);
 }
@@ -35,5 +35,4 @@ main{
     background-image: url(http://drive.google.com/uc?export=view&id=15Yc6YPn1NqOKX9jXdJbaAMizYsUacUU_);
     overflow: auto;
     height: 90vh;
-    width: 95vh;
 }
