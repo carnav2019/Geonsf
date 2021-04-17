@@ -55,12 +55,13 @@ div.content-all{
 
 }
 div.content-carrousel{
-    width: 100%;
+    width: 50%;
     position: absolute;
 }
 div.content-carrousel figure{
     width: 100%;
     height: 100%;
+    position: absolute;
 
 }
 div.content-carrousel img{
