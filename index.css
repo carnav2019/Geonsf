@@ -50,7 +50,19 @@ div.footer{
     padding: 0px;
     margin: 0px;
 }
+div.content-all{
+    width: 100%;
+
+}
 div.content-carrousel{
-    background-size: cover;
-    background-attachment: fixed;
+    width: 100%;
+    position: absolute;
+}
+div.content-carrousel figure{
+    width: 100%;
+    height: 100%;
+
+}
+div.content-carrousel img{
+    width: 100%;
 }
