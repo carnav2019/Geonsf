@@ -63,6 +63,10 @@ div.content-carrousel{
     animation: rotar 10s infinite linear;
     transform-style: preserve-3d;
 }
+div.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
 div.content-carrousel figure{
     width: 100%;
     height: 100%;
@@ -70,9 +74,7 @@ div.content-carrousel figure{
     overflow: hidden;
 
 }
-div.content-carrousel img{
-    width: 100%;
-}
+
 div.content-carrousel figure:nth-child(1){transform: rotateY(0deg)
     translateZ(300px);}
 div.content-carrousel figure:nth-child(2){transform: rotateY(40deg)
@@ -93,7 +95,13 @@ div.content-carrousel figure:nth-child(9){transform: rotateY(320deg)
 translateZ(300px);}
 div.content-carrousel figure:nth-child(10){transform: rotateY(360deg)
 translateZ(300px);}
-
+div.content-carrousel img{
+    width: 100%;
+}
+div.content-carrousel:hover{
+    transform: scale(1.5);
+    transition: all 300ms;
+}
 @keyframes rotar{
     from{
         transform: rotateY(0deg);
