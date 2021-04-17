@@ -50,3 +50,7 @@ div.footer{
     padding: 0px;
     margin: 0px;
 }
+div.content-carrousel{
+    background-size: cover;
+    background-attachment: fixed;
+}
