@@ -30,7 +30,7 @@ function popUpfondo (feature, layer) {
     
 }
 // Capa de fondo de departamentos
-var capa_fondo = L.geoJson(Algodon_19_20, {
+var capa_fondo = L.geoJson(Distritos, {
     fillOpacity:0,
     color:'indigo',
     weight: 2,
@@ -144,9 +144,6 @@ var baseMaps = {
 // Unir las capas que pretendemos controlar mediante la función L.control.layers()
 var capas = {
     'Departamentos': capa_fondo,
-    'Datos MIRTI': datos_mirti,
-    'Algodón 18-19': algodon_18_19,
-    'Algodón 19-20': algodon_19_20
 }
 
 L.control.layers(capas,baseMaps,{}).addTo(map);
